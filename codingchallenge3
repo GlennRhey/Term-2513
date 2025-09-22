@@ -1,0 +1,37 @@
+// Part 1
+let scoreD = (96 + 108 + 89) / 3;
+let scoreK = (88 + 91 + 110) / 3;
+
+if (scoreD > scoreK) {
+  console.log("dolphins win the trophy 🏆");
+} else if (scoreK > scoreD) {
+  console.log("koalas win the trophy 🏆");
+} else {
+  console.log("Both teams win the trophy 🏆");
+}
+
+// Part 2
+scoreD = (97 + 112 + 101) / 3;
+scoreK = (109 + 95 + 123) / 3;
+
+if (scoreD > scoreK && scoreD >= 100) {
+  console.log("dolphins win the trophy 🏆");
+} else if (scoreK > scoreD && scoreK >= 100) {
+  console.log("koalas win the trophy 🏆");
+} else {
+  console.log("No team wins the trophy 😢");
+}
+
+// Part 3
+scoreD = (97 + 112 + 101) / 3;
+scoreK = (109 + 95 + 106) / 3;
+
+if (scoreD === scoreK && scoreD >= 100 && scoreK >= 100) {
+  console.log("Both teams win the trophy 🏆");
+} else if (scoreD > scoreK && scoreD >= 100) {
+  console.log("dolphins win the trophy 🏆");
+} else if (scoreK > scoreD && scoreK >= 100) {
+  console.log("koalas win the trophy 🏆");
+} else {
+  console.log("No team wins the trophy 😢");
+}
