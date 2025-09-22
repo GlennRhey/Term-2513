@@ -1,0 +1,34 @@
+// Data Set 1
+const markMass1 = 78;
+const markHeight1 = 1.69;
+const johnMass1 = 92;
+const johnHeight1 = 1.95;
+
+const markBMI1 = markMass1 / (markHeight1 * markHeight1);
+const johnBMI1 = johnMass1 / (johnHeight1 * johnHeight1);
+
+const bmi1Mark = markBMI1.toFixed(1);
+const bmi1John = johnBMI1.toFixed(1);
+
+if (markBMI1 > johnBMI1) {
+  console.log("Mark's BMI is higher than John's");
+} else {
+  console.log("John's BMI is higher than Mark's");
+}
+// Data Set 2
+const markMass2 = 95;
+const markHeight2 = 1.88;
+const johnMass2 = 85;
+const johnHeight2 = 1.76;
+
+const markBMI2 = markMass2 / (markHeight2 * markHeight2);
+const johnBMI2 = johnMass2 / (johnHeight2 * johnHeight2);
+
+const bmi2Mark = markBMI2.toFixed(1);
+const bmi2John = johnBMI2.toFixed(1);
+
+if (markBMI2 > johnBMI2) {
+  console.log(`Mark's BMI (${bmi2Mark}) is higher than John's (${bmi2John})!`);
+} else {
+  console.log(`John's BMI (${bmi2John}) is higher than Mark's (${bmi2Mark})!`);
+}
