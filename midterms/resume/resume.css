@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #d4dce5;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  width: 900px;
+  margin: 20px auto;
+  background-color: white;
+}
+
+.header {
+  background-color: #dce3ea;
+  padding: 40px 50px;
+  height: 280px;
+}
+
+.profile-img {
+  width: 230px;
+  height: 230px;
+  float: left;
+  margin-right: 30px;
+}
+
+.header-info {
+  padding-top: 20px;
+}
+
+.header-info h1 {
+  font-size: 52px;
+  font-weight: 700;
+  color: #2e5266;
+  letter-spacing: 4px;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a1a;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+.divider {
+  width: 100%;
+  height: 3px;
+  background-color: #2e5266;
+  margin: 15px 0;
+}
+
+.contact {
+  font-size: 14px;
+  color: #1a1a1a;
+  font-weight: 500;
+}
+
+.intro {
+  background-color: #e8e8e8;
+  padding: 35px 50px;
+}
+
+.intro h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #3a3a3a;
+  letter-spacing: 1px;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+.intro p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #1a1a1a;
+  margin-bottom: 12px;
+  text-align: justify;
+}
+
+.main-content {
+  background-color: white;
+  height: 500px;
+}
+
+.skills {
+  width: 450px;
+  float: left;
+  background-color: #f5f5f5;
+  padding: 35px 40px;
+  height: 500px;
+}
+
+.skills h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #3a3a3a;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.skills-grid {
+  width: 370px;
+}
+
+.skill-icon {
+  width: 65px;
+  height: 65px;
+  background-color: white;
+  border-radius: 50%;
+  border: 3px solid #d0d0d0;
+  text-align: center;
+  margin: 4px;
+  float: left;
+}
+
+.skill-icon img {
+  width: 56px;
+  height: 56px;
+  margin-top: 2px;
+}
+
+.projects {
+  width: 450px;
+  float: left;
+  background-color: #e8e8e8;
+  padding: 35px 40px;
+  height: 500px;
+}
+
+.projects h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #3a3a3a;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.project {
+  margin-bottom: 30px;
+}
+
+.project h3 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+}
+
+.project p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #1a1a1a;
+  margin-bottom: 8px;
+  text-align: justify;
+}
+
+.tech-stack {
+  font-size: 12px;
+  color: #1a1a1a;
+  font-weight: 500;
+}
+
+.footer {
+  background-color: #bdc7d3;
+  padding: 30px 50px;
+  text-align: center;
+}
+
+.social-links {
+  text-align: center;
+}
+
+.social-link {
+  text-decoration: none;
+  color: #1a1a1a;
+  font-size: 13px;
+  font-weight: 500;
+  margin: 0 20px;
+}
+
+.social-link img {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
