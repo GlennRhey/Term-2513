@@ -14,23 +14,29 @@ body {
 .container {
   width: 900px;
   margin: 20px auto;
-  background-color: white;
+  background-color: #f5f5f5;
 }
 
 .header {
   background-color: #dce3ea;
   padding: 40px 50px;
-  height: 280px;
+  height: 300px;
+  font-size: 0;
 }
 
 .profile-img {
-  width: 230px;
+  display: inline-block;
+  width: 245px;
   height: 230px;
-  float: left;
-  margin-right: 30px;
+  vertical-align: top;
+  margin-right: 25px;
 }
 
 .header-info {
+  display: inline-block;
+  vertical-align: top;
+  width: calc(100% - 270px);
+  font-size: 15px;
   padding-top: 20px;
 }
 
@@ -66,10 +72,11 @@ body {
 .intro {
   background-color: #e8e8e8;
   padding: 35px 50px;
+  margin-bottom: 20px;
 }
 
 .intro h2 {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 700;
   color: #3a3a3a;
   letter-spacing: 1px;
@@ -78,7 +85,7 @@ body {
 }
 
 .intro p {
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.7;
   color: #1a1a1a;
   margin-bottom: 12px;
@@ -88,18 +95,34 @@ body {
 .main-content {
   background-color: white;
   height: 500px;
+  font-size: 0;
 }
 
 .skills {
-  width: 450px;
-  float: left;
-  background-color: #f5f5f5;
-  padding: 35px 40px;
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
   height: 500px;
+  padding: 35px 40px;
+  box-sizing: border-box;
+  font-size: 15px;
+  background-color: #f5f5f5;
 }
 
-.skills h2 {
-  font-size: 20px;
+.projects {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  height: 500px;
+  padding: 35px 40px;
+  box-sizing: border-box;
+  font-size: 15px;
+  background-color: #e8e8e8;
+}
+
+.skills h2,
+.projects h2 {
+  font-size: 22px;
   font-weight: 700;
   color: #3a3a3a;
   letter-spacing: 1px;
@@ -108,41 +131,27 @@ body {
 }
 
 .skills-grid {
-  width: 370px;
+  width: 360px;
+  font-size: 0;
 }
 
 .skill-icon {
-  width: 65px;
-  height: 65px;
+  display: inline-block;
+  width: 64px;
+  height: 64px;
   background-color: white;
   border-radius: 50%;
   border: 3px solid #d0d0d0;
+  margin: 3px;
   text-align: center;
-  margin: 4px;
-  float: left;
+  line-height: 64px;
+  font-size: 15px;
 }
 
 .skill-icon img {
-  width: 56px;
-  height: 56px;
-  margin-top: 2px;
-}
-
-.projects {
-  width: 450px;
-  float: left;
-  background-color: #e8e8e8;
-  padding: 35px 40px;
-  height: 500px;
-}
-
-.projects h2 {
-  font-size: 20px;
-  font-weight: 700;
-  color: #3a3a3a;
-  letter-spacing: 1px;
-  margin-bottom: 25px;
-  text-align: center;
+  width: 45px;
+  height: 45px;
+  vertical-align: middle;
 }
 
 .project {
@@ -150,7 +159,7 @@ body {
 }
 
 .project h3 {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 700;
   color: #1a1a1a;
   margin-bottom: 10px;
@@ -165,8 +174,8 @@ body {
   text-align: justify;
 }
 
-.tech-stack {
-  font-size: 12px;
+.tech {
+  font-size: 14px;
   color: #1a1a1a;
   font-weight: 500;
 }
@@ -182,16 +191,17 @@ body {
 }
 
 .social-link {
-  text-decoration: none;
-  color: #1a1a1a;
-  font-size: 13px;
-  font-weight: 500;
-  margin: 0 20px;
+  display: inline-block;
+  text-decoration: underline;
+  color: #3a3a3a;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 15px;
 }
 
 .social-link img {
-  width: 32px;
-  height: 32px;
+  width: 35px;
+  height: 35px;
   vertical-align: middle;
-  margin-right: 5px;
+  margin-right: 8px;
 }
