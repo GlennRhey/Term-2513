@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #5a6478;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+header {
+    background: #7d85ad;
+    padding: 12px 30px 12px 80px;
+}
+
+.logo {
+    height: 24px;
+    width: auto;
+    margin-right: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.header-span {
+    display: inline-block;
+    padding: 5px 18px;
+    color: white;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.header-dark {
+    background-color: rgba(30, 40, 80, 0.5);
+    color: white;
+    font-size: 16px;
+    padding: 23px;
+}
+
+.logo2 {
+    height: 24px;
+    width: auto;
+    margin-left: 15px;
+    margin-right: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.search {
+    width: 400px;
+    padding: 6px 10px;
+    border: 1px solid #999;
+    background-color: #e8e8f0;
+    font-size: 13px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.search-wrapper{
+    margin-left: 340px;
+}
+
+.top-section {
+    background: #323232;
+    color: #bbb;
+    padding: 10px ;
+    padding-left: 80px;
+    padding-right: 30px;
+    font-size: 13px;
+}
+
+.top-left {
+    display: inline-block;
+    width: 50%;
+}
+
+.top-left span {
+    margin-right: 8px;
+}
+
+.top-right {
+    display: inline-block;
+    width: 48%;
+    text-align: right;
+    vertical-align: top;
+}
+
+.top-right span {
+    margin-left: 20px;
+}
+
+.right-spacer {
+    display: inline-block;
+    width: 220px;
+}
+
+.main-wrapper {
+    background: #323232;
+    padding: 20px 30px;
+    font-size: 0;
+}
+
+.main-section-right {
+    width: 280px;
+    background: #353535;
+    padding: 25px;
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.main-section-right h3 {
+    font-size: 17px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.intro-label {
+    font-size: 13px;
+    color: #aaa;
+    margin-bottom: 10px;
+}
+
+.active-link {
+    font-size: 13px;
+    color: #ff69b4;
+}
+
+section {
+    width: 1000px;
+    background: #f0f0f0;
+    padding: 30px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+}
+
+.main-section-right {
+    width: 280px;
+    background: #353535;
+    padding: 25px;
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.main-section-top {
+    text-align: right;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+.main-section-top span {
+    display: block;
+    margin-top: 8px;
+    color: #5a6a8f;
+}
+
+.main-section-top select {
+    padding: 4px 8px;
+    border: 1px solid #999;
+}
+
+section h1 {
+    font-size: 30px;
+    color: #222;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px dotted #999;
+}
+
+.table-of-contents {
+    margin: 25px 0;
+}
+
+.table-of-contents h2 {
+    font-size: 18px;
+    color: #663333;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px dotted #999;
+}
+
+.table-of-contents a {
+    display: block;
+    margin: 8px 0 8px 15px;
+    color: #5a6a8f;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.content p {
+    margin: 15px 0;
+    line-height: 1.6;
+    font-size: 14px;
+    color: #333;
+    text-align: justify;
+}
+
+.content u {
+    color: #5a6a8f;
+}
+
+.user-notes {
+    margin-top: 40px;
+}
+
+.user-notes h2 {
+    display: inline-block;
+    font-size: 18px;
+    color: #663333;
+    width: 70%;
+}
+
+.user-notes button {
+    padding: 4px 10px;
+    border: none;
+    font-size: 13px;
+    display: inline-block;
+    width: 28%;
+    text-align: center;
+    text-decoration: underline;
+    color: #5a6a8f;
+}
+
+.user-notes button img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.user-notes-divider {
+    border-bottom: 1px dotted #999;
+    padding-top: 8px;
+    margin-bottom: 15px;
+}
+
+.user-notes p {
+    font-style: italic;
+    color: #666;
+    font-size: 14px;
+}
+
+footer {
+    background: #323232;
+    color: #999;
+    padding: 18px ;
+    padding-left: 80px;
+    font-size: 12px;
+}
+
+footer span {
+    display: inline-block;
+    margin-right: 25px;
+}
