@@ -7,7 +7,6 @@
 
 body {
     background: #5a6478;
-    min-height: 100vh;
 }
 
 .container {
@@ -17,7 +16,9 @@ body {
 
 header {
     background: #7d85ad;
-    padding: 12px 30px 12px 80px;
+    height: 45px;
+    padding-top: 5px;
+    padding-left: 80px;
 }
 
 .logo {
@@ -33,15 +34,18 @@ header {
     display: inline-block;
     padding: 5px 18px;
     color: white;
-    font-size: 16px;
+    font-size: 17px;
     vertical-align: middle;
 }
 
 .header-dark {
-    background-color: rgba(30, 40, 80, 0.5);
+    background-color: #4F5B92;
     color: white;
-    font-size: 16px;
-    padding: 23px;
+    font-size: 17px;
+    padding-top: 17px;
+    padding-bottom: 12px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .logo2 {
@@ -54,17 +58,25 @@ header {
 }
 
 .search {
-    width: 400px;
-    padding: 6px 10px;
+    width: 345px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border: 1px solid #999;
-    background-color: #e8e8f0;
-    font-size: 13px;
+    background-color: white;
+    font-size: 17px;
     display: inline-block;
     vertical-align: middle;
+    color: #d3cece;
 }
 
 .search-wrapper{
-    margin-left: 340px;
+    margin-left: 330px;
+}
+
+.divider {
+    height: 4px;
+    background-color: #4F5B92;
+    width: 100%;
 }
 
 .top-section {
@@ -87,54 +99,44 @@ header {
 
 .top-right {
     display: inline-block;
-    width: 48%;
+    width: 480px;
     text-align: right;
     vertical-align: top;
+    margin-left: 50px;
 }
 
 .top-right span {
-    margin-left: 20px;
-}
-
-.right-spacer {
-    display: inline-block;
-    width: 220px;
+    margin-left: 40px;
 }
 
 .main-wrapper {
     background: #323232;
-    padding: 20px 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-top: 5px;
     font-size: 0;
 }
 
-.main-section-right {
-    width: 280px;
-    background: #353535;
-    padding: 25px;
-    color: white;
-    display: inline-block;
-    vertical-align: top;
-}
-
-.main-section-right h3 {
-    font-size: 17px;
-    margin-bottom: 20px;
-    color: white;
-}
-
-.intro-label {
+.intro {
     font-size: 13px;
     color: #aaa;
-    margin-bottom: 10px;
+    margin-bottom: 6px;
+    border-bottom: 1px dotted #999;
+    border-top: 1px dotted #999;
+    padding-left: 15px;
+    padding-top: 2px;
+    padding-bottom: 1px;
 }
 
-.active-link {
+.tutorial {
     font-size: 13px;
     color: #ff69b4;
+    border-bottom: 1px dotted #ff69b4;
 }
 
 section {
-    width: 1000px;
+    width: 985px;
     background: #f0f0f0;
     padding: 30px;
     display: inline-block;
@@ -142,27 +144,62 @@ section {
     margin-left: 20px;
 }
 
+.divider-right{
+    height: 591px;
+    width: 3px;
+    background: rgb(150, 146, 146);
+    text-align: right;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: inline-block;
+}
+
 .main-section-right {
-    width: 280px;
-    background: #353535;
+    width: 365px;
+    background: #323232;
     padding: 25px;
-    color: white;
+    color: rgb(133, 126, 126);
     display: inline-block;
     vertical-align: top;
-    margin-left: 20px;
-    font-size: 14px;
+    margin-left: 0px;
+    font-size: 18px;
 }
+
+.main-section-right h3 {
+    color: rgb(180, 177, 173);
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
 
 .main-section-top {
     text-align: right;
-    margin-bottom: 20px;
-    font-size: 13px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+#language{
+    width: 140px;
+    font-size: 12px;
+    padding: 1px;
 }
 
 .main-section-top span {
     display: block;
     margin-top: 8px;
+    color: black;
+}
+.topspan1{
+    margin-right: 10px;
+}
+
+.top-span{
+    display: block;
+    margin-top: 5px;
     color: #5a6a8f;
+    text-align: right;
+    margin-bottom: 10px;
+    font-size: 12px;
 }
 
 .main-section-top select {
@@ -171,7 +208,7 @@ section {
 }
 
 section h1 {
-    font-size: 30px;
+    font-size: 28px;
     color: #222;
     margin-bottom: 8px;
     padding-bottom: 8px;
@@ -183,8 +220,8 @@ section h1 {
 }
 
 .table-of-contents h2 {
-    font-size: 18px;
-    color: #663333;
+    font-size: 23px;
+    color: #222;
     margin-bottom: 8px;
     padding-bottom: 8px;
     border-bottom: 1px dotted #999;
@@ -192,16 +229,24 @@ section h1 {
 
 .table-of-contents a {
     display: block;
-    margin: 8px 0 8px 15px;
+    margin: 8px 0 8px 0px;
     color: #5a6a8f;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 15px;
+}
+
+.table-of-contents .bullet{
+    text-decoration: none;
+    margin-right: 5px;
+}
+.table-of-contents .link {
+  text-decoration: underline;
 }
 
 .content p {
     margin: 15px 0;
     line-height: 1.6;
-    font-size: 14px;
+    font-size: 15px;
     color: #333;
     text-align: justify;
 }
@@ -221,20 +266,21 @@ section h1 {
     width: 70%;
 }
 
-.user-notes button {
-    padding: 4px 10px;
-    border: none;
+.buttons{
     font-size: 13px;
     display: inline-block;
-    width: 28%;
+    width: 95px;
     text-align: center;
-    text-decoration: underline;
     color: #5a6a8f;
-}
+    border-bottom: 1px #5a6a8f solid;
+    margin-left: 180px;
+} 
 
-.user-notes button img {
+.user-notes p img {
     vertical-align: middle;
-    margin-right: 5px;
+    height: 13px;
+    margin-top: 2px;
+    margin-bottom: 5px;
 }
 
 .user-notes-divider {
@@ -254,7 +300,7 @@ footer {
     color: #999;
     padding: 18px ;
     padding-left: 80px;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 footer span {
