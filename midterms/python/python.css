@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to bottom, #35678f 0%, #4a7ba7 100%);
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #35678f;
+    padding: 20px 40px;
+}
+
+.header-top {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.pylogo {
+    width: 280px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.headerright {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 331px;
+}
+
+.donate {
+    background-color: #ffd54a;
+    border: none;
+    padding: 8px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+    color: gray;
+    margin-left: 15px;
+}
+
+.search {
+    display: inline-block;
+    background-color: #1e3d59;
+    padding: 15px 8px 15px 25px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+.search input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    width: 200px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.search button {
+    background-color: #4a7ba7;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.socialize {
+    color: #a0c4d9;
+    border-left: 2px solid #000000;
+    background-color: #1e3d59;
+    padding: 22px 15px 23px 15px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: -5px;
+}
+
+nav {
+    background-color: #4584b6;
+    width: 100%;
+}
+
+nav span {
+    display: inline-block;
+    padding: 20px 25px;
+    color: white;
+    font-size: 14px;
+    border-right: 1px solid #3a7099;
+    vertical-align: top;
+}
+
+nav span:first-child {
+    background-color: #2b5b7f;
+    margin-left: 135px;
+}
+
+.description {
+    background: linear-gradient(to bottom, #35678f 0%, #4a7ba7 100%);
+    width: 100%;
+    position: relative;
+}
+
+.desc-content {
+    width: 100%;
+    max-width: 1200px;
+}
+
+.python {
+    width: 45%;
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+}
+
+.pybig {
+    color: #ffd43b;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.4;
+    margin-bottom: 15px;
+    margin-left: 145px;
+}
+
+.pysmall {
+    color: #e0e0e0;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-left: 145px;
+    margin-bottom: 35px;
+}
+
+.pythonbox {
+    width: 50%;
+    display: inline-block;
+}
+
+.pythonbox img {
+    max-width: 450px;
+    width: 100%;
+    height: 310px;
+    position: absolute;
+    bottom: -41px;
+    right: 170px;
+}
+
+main {
+    background-color: white;
+    padding-left: 40px;
+    padding-right: 0px;
+}
+
+.sectionleft {
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+    background-color: white;
+    padding: 10px;
+    margin-right: 2%;
+}
+
+.sectionright {
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+    background-color: white;
+    padding: 10px;
+}
+
+.section-header {
+    width: 100%;
+    border-top: 4px solid #4584b6;
+    padding-top: 15px;
+    margin-bottom: 5px;
+}
+
+.latest-news,
+.use-of-python {
+    font-size: 20px;
+    color: #555;
+    display: inline-block;
+}
+
+.more-link1 {
+    color: #84878a;
+    font-size: 14px;
+    margin-left: 361px;
+}
+.more-link2 {
+    color: #84878a;
+    font-size: 14px;
+    margin-left: 321px;
+}
+.sectionleft hr {
+    border: none;
+    border-top: 1px solid #e0e0e0;
+}
+
+.sectionleft p {
+    padding: 12px 0;
+    border-bottom: 1px solid #e0e0e0;
+    color: #666;
+    font-size: 14px;
+}
+
+.sectionleft p span {
+    color: #4584b6;
+    margin-left: 15px;
+}
+
+.sectionright hr {
+    border: none;
+    border-top: 1px solid #e0e0e0;
+}
+
+.sectionright p {
+    padding: 12px 0;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+.sectionright p span {
+    display: inline-block;
+    background-color: #e8e8e8;
+    color: #666;
+    padding: 3px 3px 3px 3px;
+    margin: 0 3px;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+footer {
+    background-color: #35678f;
+    padding: 10px 40px;
+    text-align: center;
+    color: #a0c4d9;
+    width: 100%;
+}
+
+.footer-links {
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer-links span {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.dot {
+    display: inline-block;
+    color: rgb(135, 207, 25);
+    font-size: 50px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+.copyright {
+    font-size: 10px;
+    color: #7ca5bd;
+}
+
+.copyright a {
+    color: #7ca5bd;
+    text-decoration: none;
+    margin: 0 3px;
+    border-bottom: 1px dotted #7ca5bd;
+}
