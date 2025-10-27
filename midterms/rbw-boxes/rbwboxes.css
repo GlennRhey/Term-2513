@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    min-height: 150px;
+    width: 295px;
+    background-color: #b97a57;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+#wrapper {
+    padding: 20px;
+    width: 1000px;
+    background-color: #ffd9b7;
+    margin: 10px auto;
+}
+
+#navigation {
+    min-height: 150px;
+    width: 675px;
+    background-color: #ff7f27;
+    display: inline-block;
+}
+
+#main_content {
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    min-height: 250px;
+    width: 938px;
+    background-color: #880015;
+}
+
+#about {
+    min-height: 310px;
+    width: 718px;
+    background-color: #ffaec9;
+    display: inline-block;
+}
+
+#advertisement {
+    padding: 30px;
+    margin: 10px 10px 90px 35px;
+    min-height: 160px;
+    width: 108px;
+    background-color: #c8bfe7;
+    display: inline-block;
+}
+
+.sponsors {
+    min-height: 70px;
+    width: 32.8%;
+    background-color: #ffff88;
+    margin-left: 0.95px;
+    margin-right: 0.95px;
+    display: inline-block;
+}
+
+@media screen and (max-width: 1023px) and (min-width: 481px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    #wrapper {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-size: 0;
+    }
+
+    #logo {
+        display: inline-block;
+        width: 35%;
+        min-height: 100px;
+        margin-right: 3%;
+        vertical-align: top;
+        font-size: 16px;
+    }
+
+    #navigation {
+        display: inline-block;
+        width: 62%;
+        min-height: 100px;
+        margin: 0;
+        vertical-align: top;
+        font-size: 16px;
+    }
+
+    #main_content {
+        width: 100%;
+        padding: 20px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        background-color: #880015;
+        font-size: 16px;
+    }
+
+    #about {
+        width: 100%;
+        min-height: 250px;
+    }
+
+    #advertisement {
+        display: none;
+    }
+
+    .sponsors {
+        width: 49%;
+        margin: 10px 0;
+        min-height: 50px;
+        display: inline-block;
+        font-size: 16px;
+    }
+
+    .sponsors:nth-child(5) {
+        margin-left: 2%;
+    }
+
+    .sponsors:last-child {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    #wrapper {
+        width: 100%;
+        margin: 0;
+        padding: 0 0 10px 0;
+    }
+
+    #logo,
+    #navigation {
+        display: block;
+        min-height: 100px;
+        width: 100%;
+        margin: 0;
+    }
+
+    #main_content {
+        width: 100%;
+        padding: 20px;
+        margin-top: 0;
+        margin-bottom: 10px;
+        min-height: 180px;
+    }
+
+    #about {
+        width: 100%;
+    }
+
+    #advertisement {
+        display: none;
+    }
+
+    .sponsors {
+        width: 100%;
+        margin: 10px 0;
+        min-height: 110px;
+    }
+
+    .sponsors:last-child {
+        margin-bottom: 10px;
+    }
+}
