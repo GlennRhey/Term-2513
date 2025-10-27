@@ -239,6 +239,9 @@ body {
         font-size: 14px;
         letter-spacing: 1.5px;
     }
+    .divider {
+        width: 100%;
+    }
 
     .contact {
         font-size: 13px;
@@ -342,6 +345,7 @@ body {
     .divider {
         height: 2px;
         margin: 12px 0;
+        width: 100%;
     }
 
     .contact {
