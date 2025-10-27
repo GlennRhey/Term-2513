@@ -1,206 +1,205 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #d4dce5;
-  color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d4dce5;
+    color: #333;
 }
 
 .container {
-  width: 900px;
-  margin: 20px auto;
-  background-color: #f5f5f5;
+    width: 900px;
+    margin: 20px auto;
+    background-color: #f5f5f5;
 }
 
 .header {
-  background-color: #dce3ea;
-  padding: 40px 50px;
-  height: 300px;
-  font-size: 0;
+    background-color: #dce3ea;
+    padding: 40px 50px;
+    height: 300px;
+    font-size: 0;
 }
 
 .profile-img {
-  display: inline-block;
-  width: 245px;
-  height: 230px;
-  vertical-align: top;
-  margin-right: 25px;
+    display: inline-block;
+    width: 245px;
+    height: 230px;
+    vertical-align: top;
+    margin-right: 25px;
 }
 
 .header-info {
-  display: inline-block;
-  vertical-align: top;
-  width: calc(100% - 270px);
-  font-size: 15px;
-  padding-top: 20px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 15px;
+    padding-top: 20px;
 }
 
 .header-info h1 {
-  font-size: 52px;
-  font-weight: 700;
-  color: #2e5266;
-  letter-spacing: 4px;
-  margin-bottom: 8px;
+    font-size: 52px;
+    font-weight: 700;
+    color: #2e5266;
+    letter-spacing: 4px;
+    margin-bottom: 8px;
 }
 
 .subtitle {
-  font-size: 16px;
-  font-weight: 600;
-  color: #1a1a1a;
-  letter-spacing: 2px;
-  margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
 }
 
 .divider {
-  width: 100%;
-  height: 3px;
-  background-color: #2e5266;
-  margin: 15px 0;
+    width: 530px;
+    height: 3px;
+    background-color: #2e5266;
+    margin: 15px 0;
 }
 
 .contact {
-  font-size: 14px;
-  color: #1a1a1a;
-  font-weight: 500;
+    font-size: 14px;
+    color: #1a1a1a;
+    font-weight: 500;
 }
 
 .intro {
-  background-color: #e8e8e8;
-  padding: 35px 50px;
-  margin-bottom: 20px;
+    background-color: #e8e8e8;
+    padding: 35px 50px;
+    margin-bottom: 20px;
 }
 
 .intro h2 {
-  font-size: 22px;
-  font-weight: 700;
-  color: #3a3a3a;
-  letter-spacing: 1px;
-  margin-bottom: 18px;
-  text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    color: #3a3a3a;
+    letter-spacing: 1px;
+    margin-bottom: 18px;
+    text-align: center;
 }
 
 .intro p {
-  font-size: 16px;
-  line-height: 1.7;
-  color: #1a1a1a;
-  margin-bottom: 12px;
-  text-align: justify;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #1a1a1a;
+    margin-bottom: 12px;
+    text-align: justify;
 }
 
 .main-content {
-  background-color: white;
-  height: 500px;
-  font-size: 0;
+    background-color: white;
+    height: 500px;
+    font-size: 0;
 }
 
 .skills {
-  display: inline-block;
-  vertical-align: top;
-  width: 50%;
-  height: 500px;
-  padding: 35px 40px;
-  box-sizing: border-box;
-  font-size: 15px;
-  background-color: #f5f5f5;
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    height: 500px;
+    padding: 35px 40px;
+    box-sizing: border-box;
+    font-size: 15px;
+    background-color: #f5f5f5;
 }
 
 .projects {
-  display: inline-block;
-  vertical-align: top;
-  width: 50%;
-  height: 500px;
-  padding: 35px 40px;
-  box-sizing: border-box;
-  font-size: 15px;
-  background-color: #e8e8e8;
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    height: 500px;
+    padding: 35px 40px;
+    box-sizing: border-box;
+    font-size: 15px;
+    background-color: #e8e8e8;
 }
 
 .skills h2,
 .projects h2 {
-  font-size: 22px;
-  font-weight: 700;
-  color: #3a3a3a;
-  letter-spacing: 1px;
-  margin-bottom: 25px;
-  text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    color: #3a3a3a;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    text-align: center;
 }
 
 .skills-grid {
-  width: 360px;
-  font-size: 0;
+    width: 360px;
+    font-size: 0;
 }
 
 .skill-icon {
-  display: inline-block;
-  width: 64px;
-  height: 64px;
-  background-color: white;
-  border-radius: 50%;
-  border: 3px solid #d0d0d0;
-  margin: 3px;
-  text-align: center;
-  line-height: 64px;
-  font-size: 15px;
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    background-color: white;
+    border-radius: 50%;
+    border: 3px solid #d0d0d0;
+    margin: 3px;
+    text-align: center;
+    line-height: 64px;
+    font-size: 15px;
 }
 
 .skill-icon img {
-  width: 45px;
-  height: 45px;
-  vertical-align: middle;
+    width: 45px;
+    height: 45px;
+    vertical-align: middle;
 }
 
 .project {
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .project h3 {
-  font-size: 16px;
-  font-weight: 700;
-  color: #1a1a1a;
-  margin-bottom: 10px;
-  letter-spacing: 0.5px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 10px;
+    letter-spacing: 0.5px;
 }
 
 .project p {
-  font-size: 15px;
-  line-height: 1.6;
-  color: #1a1a1a;
-  margin-bottom: 8px;
-  text-align: justify;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #1a1a1a;
+    margin-bottom: 8px;
+    text-align: justify;
 }
 
 .tech {
-  font-size: 14px;
-  color: #1a1a1a;
-  font-weight: 500;
+    font-size: 14px;
+    color: #1a1a1a;
+    font-weight: 500;
 }
 
 .footer {
-  background-color: #bdc7d3;
-  padding: 30px 50px;
-  text-align: center;
+    background-color: #bdc7d3;
+    padding: 30px 50px;
+    text-align: center;
 }
 
 .social-links {
-  text-align: center;
+    text-align: center;
 }
 
 .social-link {
-  display: inline-block;
-  text-decoration: underline;
-  color: #3a3a3a;
-  font-size: 16px;
-  font-weight: 600;
-  margin: 0 15px;
+    display: inline-block;
+    text-decoration: underline;
+    color: #3a3a3a;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 15px;
 }
 
 .social-link img {
-  width: 35px;
-  height: 35px;
-  vertical-align: middle;
-  margin-right: 8px;
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+    margin-right: 8px;
 }
