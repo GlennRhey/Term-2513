@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Candy Crush</title>
+    <link rel="stylesheet" href="candycrush.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="candycrush.js" defer></script>
+</head>
+<body>
+    <div class="background-image">
+        <img src="background.jpg" alt="Background">
+    </div>
+    
+    <div class="candies">
+        <img src="red_candy.png" alt="Red Candy">
+        <img src="orange_candy.png" alt="Orange Candy">
+        <img src="yellow_candy.png" alt="Yellow Candy">
+        <img src="multicolor_candy.png" alt="Multicolor Candy">
+    </div>
+
+    <div class="game-container">
+        <header>
+            <h1>Candy Crush</h1>
+        </header>
+        
+        <div class="reset-box">
+            <button id="reset-btn">Reset Game</button>
+        </div>
+        
+        <div id="game-board">
+        </div>
+    </div>
+</body>
+</html>
