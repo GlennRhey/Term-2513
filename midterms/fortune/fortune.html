@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fortune Cookie Teller</title>
+    <link rel="stylesheet" href="fortune.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Fortune Cookie Teller</h1>
+        <p class="directions">Directions: Close your eyes then point at this page. Open your eyes and follow the advice your mouse pointer lands on.</p>
+        <div class="game-container">
+            <div class="game-grid" id="gameGrid">
+                
+                <div class="card" data-fortune="1">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="cookie.jpg" alt="Fortune Cookie">
+                        </div>
+                        <div class="card-back">
+                            <img src="advice1.PNG" alt="Fortune 1">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card" data-fortune="2">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="cookie.jpg" alt="Fortune Cookie">
+                        </div>
+                        <div class="card-back">
+                            <img src="advice2.PNG" alt="Fortune 2">
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-fortune="3">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="cookie.jpg" alt="Fortune Cookie">
+                        </div>
+                        <div class="card-back">
+                            <img src="advice3.PNG" alt="Fortune 3">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card" data-fortune="4"><div class="card-inner"><div class="card-front"><img src="cookie.jpg" alt="Fortune Cookie"></div><div class="card-back"><img src="advice4.PNG" alt="Fortune 4"></div></div></div>
+                <div class="card" data-fortune="5"><div class="card-inner"><div class="card-front"><img src="cookie.jpg" alt="Fortune Cookie"></div><div class="card-back"><img src="advice5.PNG" alt="Fortune 5"></div></div></div>
+                <div class="card" data-fortune="6"><div class="card-inner"><div class="card-front"><img src="cookie.jpg" alt="Fortune Cookie"></div><div class="card-back"><img src="advice6.PNG" alt="Fortune 6"></div></div></div>
+                <div class="card" data-fortune="7"><div class="card-inner"><div class="card-front"><img src="cookie.jpg" alt="Fortune Cookie"></div><div class="card-back"><img src="advice7.PNG" alt="Fortune 7"></div></div></div>
+                <div class="card" data-fortune="8"><div class="card-inner"><div class="card-front"><img src="cookie.jpg" alt="Fortune Cookie"></div><div class="card-back"><img src="advice8.PNG" alt="Fortune 8"></div></div></div>
+                <div class="card" data-fortune="9"><div class="card-inner"><div class="card-front"><img src="cookie.jpg" alt="Fortune Cookie"></div><div class="card-back"><img src="advice9.PNG" alt="Fortune 9"></div></div></div>
+                <div class="card" data-fortune="10"><div class="card-inner"><div class="card-front"><img src="cookie.jpg" alt="Fortune Cookie"></div><div class="card-back"><img src="advice10.PNG" alt="Fortune 10"></div></div></div>
+                <div class="card" data-fortune="11"><div class="card-inner"><div class="card-front"><img src="cookie.jpg" alt="Fortune Cookie"></div><div class="card-back"><img src="advice11.PNG" alt="Fortune 11"></div></div></div>
+                <div class="card" data-fortune="12"><div class="card-inner"><div class="card-front"><img src="cookie.jpg" alt="Fortune Cookie"></div><div class="card-back"><img src="advice12.PNG" alt="Fortune 12"></div></div></div>
+                <div class="card" data-fortune="13"><div class="card-inner"><div class="card-front"><img src="cookie.jpg" alt="Fortune Cookie"></div><div class="card-back"><img src="advice13.PNG" alt="Fortune 13"></div></div></div>
+                <div class="card" data-fortune="14"><div class="card-inner"><div class="card-front"><img src="cookie.jpg" alt="Fortune Cookie"></div><div class="card-back"><img src="advice14.PNG" alt="Fortune 14"></div></div></div>
+                <div class="card" data-fortune="15"><div class="card-inner"><div class="card-front"><img src="cookie.jpg" alt="Fortune Cookie"></div><div class="card-back"><img src="advice15.PNG" alt="Fortune 15"></div></div></div>
+                <div class="card" data-fortune="16"><div class="card-inner"><div class="card-front"><img src="cookie.jpg" alt="Fortune Cookie"></div><div class="card-back"><img src="advice16.PNG" alt="Fortune 16"></div></div></div>
+                <div class="card" data-fortune="17"><div class="card-inner"><div class="card-front"><img src="cookie.jpg" alt="Fortune Cookie"></div><div class="card-back"><img src="advice17.PNG" alt="Fortune 17"></div></div></div>
+                <div class="card" data-fortune="18"><div class="card-inner"><div class="card-front"><img src="cookie.jpg" alt="Fortune Cookie"></div><div class="card-back"><img src="advice18.PNG" alt="Fortune 18"></div></div></div>
+                <div class="card" data-fortune="19"><div class="card-inner"><div class="card-front"><img src="cookie.jpg" alt="Fortune Cookie"></div><div class="card-back"><img src="advice19.PNG" alt="Fortune 19"></div></div></div>
+                <div class="card" data-fortune="20"><div class="card-inner"><div class="card-front"><img src="cookie.jpg" alt="Fortune Cookie"></div><div class="card-back"><img src="advice20.PNG" alt="Fortune 20"></div></div></div>
+                <div class="card" data-fortune="21"><div class="card-inner"><div class="card-front"><img src="cookie.jpg" alt="Fortune Cookie"></div><div class="card-back"><img src="advice21.PNG" alt="Fortune 21"></div></div></div>
+                <div class="card" data-fortune="22"><div class="card-inner"><div class="card-front"><img src="cookie.jpg" alt="Fortune Cookie"></div><div class="card-back"><img src="advice22.PNG" alt="Fortune 22"></div></div></div>
+                <div class="card" data-fortune="23"><div class="card-inner"><div class="card-front"><img src="cookie.jpg" alt="Fortune Cookie"></div><div class="card-back"><img src="advice23.PNG" alt="Fortune 23"></div></div></div>
+                <div class="card" data-fortune="24"><div class="card-inner"><div class="card-front"><img src="cookie.jpg" alt="Fortune Cookie"></div><div class="card-back"><img src="advice24.PNG" alt="Fortune 24"></div></div></div>
+                <div class="card" data-fortune="25"><div class="card-inner"><div class="card-front"><img src="cookie.jpg" alt="Fortune Cookie"></div><div class="card-back"><img src="advice25.PNG" alt="Fortune 25"></div></div></div>
+                <div class="card" data-fortune="26"><div class="card-inner"><div class="card-front"><img src="cookie.jpg" alt="Fortune Cookie"></div><div class="card-back"><img src="advice26.PNG" alt="Fortune 26"></div></div></div>
+                <div class="card" data-fortune="27"><div class="card-inner"><div class="card-front"><img src="cookie.jpg" alt="Fortune Cookie"></div><div class="card-back"><img src="advice27.PNG" alt="Fortune 27"></div></div></div>
+                <div class="card" data-fortune="28"><div class="card-inner"><div class="card-front"><img src="cookie.jpg" alt="Fortune Cookie"></div><div class="card-back"><img src="advice28.PNG" alt="Fortune 28"></div></div></div>
+                <div class="card" data-fortune="29"><div class="card-inner"><div class="card-front"><img src="cookie.jpg" alt="Fortune Cookie"></div><div class="card-back"><img src="advice29.PNG" alt="Fortune 29"></div></div></div>
+                <div class="card" data-fortune="30">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="cookie.jpg" alt="Fortune Cookie">
+                        </div>
+                        <div class="card-back">
+                            <img src="advice30.PNG" alt="Fortune 30">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="fortuneContainer" style="display: none;">
+                <div id="fortuneContent"></div>
+                <button id="closeFortune">Close</button>
+            </div>
+        </div>
+    </div>
+    <script src="fortune.js"></script>
+</body>
+</html>
